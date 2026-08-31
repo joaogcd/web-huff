@@ -1,13 +1,13 @@
 # Web Huff
 
-🗜️ An interactive web application for file compression and decompression using the Huffman Algorithm.
+An interactive web application for file compression and decompression using the Huffman Algorithm.
 
 [![Netlify Status](https://img.shields.io/badge/Netlify-Deployed-00C7B7?style=flat&logo=netlify)](https://web-huff.netlify.app/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 - **Live Application:** [https://web-huff.netlify.app/](https://web-huff.netlify.app/)
 
-## 📖 About the Project
+## About the Project
 
 Web Huff is an educational and practical project that implements the **Huffman Compression Algorithm**, a lossless compression method widely used in formats such as ZIP, GZIP, JPEG, and MP3.
 
@@ -17,21 +17,22 @@ Huffman Coding is a greedy algorithm that assigns variable-length binary codes t
 
 ### Key Features
 
-- ✅ **Lossless Compression** - Complete recovery of original text
-- 📊 **Statistics Visualization** - Real-time compression rate and efficiency
-- 🌳 **Binary Tree Construction** - Based on character frequency
-- 💾 **Text File Compression** - Support for upload and download
-- 🚀 **Intuitive Interface** - Modern and responsive user experience
-- 🔄 **Reversible Process** - Compression and decompression in the browser
+- **Lossless Compression** - Complete recovery of original text
+- **Statistics Visualization** - Real-time compression rate and efficiency
+- **Binary Tree Construction** - Based on character frequency
+- **Text File Compression** - Support for upload and download
+- **Intuitive Interface** - Modern and responsive user experience
+- **Reversible Process** - Compression and decompression in the browser
 
-## 🛠️ Technologies Used
+
+## Technologies Used
 
 - **HTML5** - Semantic structure of the application
 - **CSS3** - Styling and responsive design
 - **JavaScript** - Compression/decompression logic and DOM manipulation
 - **Netlify** - Hosting and continuous deployment
 
-## 🚀 How It Works
+## How It Works
 
 ### Compression Algorithm
 
@@ -45,7 +46,7 @@ Huffman Coding is a greedy algorithm that assigns variable-length binary codes t
 
 The compression rate can vary from **~33%** (text with a single character) to **~87.5%** (text with highly repetitive patterns). The algorithm is optimal for character-based compression, especially effective for texts with unequal character distribution.
 
-## 💻 Usage
+## Usage
 
 ![Application Screenshot](./assets/web-huff-usage.gif)
 
@@ -55,7 +56,7 @@ The compression rate can vary from **~33%** (text with a single character) to **
 4. To decompress, paste the compressed text and click "Decompress".
 5. Download the results as needed.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 web-huff/
@@ -79,7 +80,7 @@ web-huff/
 └── README.md          # This file
 ```
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Educational
 
@@ -99,7 +100,7 @@ web-huff/
 - Component of text processing systems
 - Reference for encoding algorithms
 
-## 🔬 Compression Examples
+## Compression Examples
 
 ### Repetitive Text
 
@@ -119,27 +120,7 @@ web-huff/
 **Compression Rate:** ~33%  
 **Reason:** Each character appears once, codes cannot be optimized
 
-## 🤝 Contributing
-
-Contributions are welcome! If you have suggestions, bug fixes, or new features:
-
-1. Fork the project
-2. Create a branch for your feature (`git checkout -b feature/NewFeature`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature/NewFeature`)
-5. Open a Pull Request
-
-### Contribution Ideas
-
-- [ ] Add graphical visualization of Huffman tree
-- [ ] Implement compressed file download
-- [ ] Multi-language support (i18n)
-- [ ] Dark mode
-- [ ] Advanced statistics (entropy, information gain)
-- [ ] Comparison with other algorithms (LZW, RLE)
-- [ ] Automated tests
-
-## 📚 Resources and References
+## Resources and References
 
 ### Articles and Tutorials
 
@@ -160,15 +141,15 @@ Contributions are welcome! If you have suggestions, bug fixes, or new features:
 - **JSON** - JSON compression
 - **XML** - XML Compression
 
-## 📄 License
+## License
 
 This project is under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## 👤 Author
+## Author
 
-**@Jooaogcd** - [GitHub](https://github.com/Jooaogcd)
+**@joaogcd** - [GitHub](https://github.com/joaogcd)
 
 
-## ⭐ Give It a Star!
+## Give It a Star!
 
 If this project was useful to you, consider giving it a ⭐ on the repository!
